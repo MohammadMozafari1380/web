@@ -3,6 +3,7 @@
 {
     width: 100%;
     height: 100px;
+    border: 1px solid;
     background-color: #2e2e35;
 }
 .menu p
@@ -35,180 +36,245 @@
     text-align: center;
     line-height: 90px;
 }
-.menu-btn:hover
-{
-    border-bottom: 5px solid greenyellow;
-}
-.ttt
+a
 {
     text-decoration: none;
     color: white;
     font-family: Tahoma;
     font-size: 15px;
 }
-.ttt:hover
+a:hover
 {
     color: greenyellow;
 }
 /*header*/
-.kol
+
+/*body*/
+.badan
 {
     width: 60%;
-    height: 1001px;
-    border: 1px solid #d8d4d4;
+    height: 1366px;
+    border: 1px solid #e2e0e0;
     margin: 0 auto;
-
+    border-top: none;
 }
-.ghesmat-1
+.aval
 {
-    width: 100%;
-    height: 292px;
-    margin: 0 auto;
-    float: left;
+    margin-top: 50px;
 }
-
-.img-1
+.abw
 {
-    margin-top: 60px;
-    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: #efefef;
+    border-right: 5px solid greenyellow;
+    float: right;
+    margin-top: 50px;
 }
-.matn-top-1
+.badan .abw p
 {
-    ffont-family: sans-serif;
+    float: right;
+    margin-right: 20px;
+    font-family: Tahoma;
+}
+.matn
+{
+    width: 200px;
+    height: 180px;
+    float: right;
+    margin-top: -221px;
+}
+.badan .matn p
+{
+    margin-right: 5px;
     text-align: right;
-    font-size: 18px;
-    padding: 50px 10px 0px 0px;
+    font-family: Tahoma;
+    font-size: 13px;
 }
-.matn-main-1
+.srch
 {
-    font-family: sans-serif;
+    width: 200px;
+    height: 50px;
+    background-color: #efefef;
+    border-right: 5px solid greenyellow;
+    float: right;
+    margin-top: -10px;
+
+}
+.badan .srch p
+{
+    float: right;
+    margin-right: 20px;
+    font-family: Tahoma;
+}
+.srs
+{
+    width: 200px;
+    height: 40px;
+    float: right;
+    margin-top: 50px;
+    margin-right: -200px;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.gosh
+{
+    width: 200px;
+    height: 50px;
+    background-color: #efefef;
+    border-right: 5px solid greenyellow;
+    float: right;
+    margin-top: 170px;
+    margin-right: -205px;
+}
+.badan .gosh p
+{
+    float: right;
+    margin-right: 20px;
+    font-family: Tahoma;
+}
+.em
+{
+    width: 191px;
+    height: 40px;
+    float: right;
+    margin-top: 230px;
+    margin-right: -205px;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 13px;
+    padding: 0px 10px 0px 0px;
+}
+.tozih-1
+{
+    font-family: Tahoma;
+    text-align: left;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.sartozih-2
+{
+    width: 540px;
+    height: 100px;
+}
+.tozih-2
+{
+    font-family: Tahoma;
     text-align: right;
     font-size: 16px;
-    padding: 0px 10px 0px 0px;
+    margin-top: 0px;
+    margin-left: 10px;
 }
 .btn-1
 {
-    width: 120px;
-    height: 32px;
-    border: 1px solid gray;
-    color: gray;
-    background-color: white;
-    margin-left: 50px;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #a1a1a1a1;
     border-radius: 20px;
-    font-size: 27px;
-    text-align: center;
-}
-.btn-1:hover
-{
-    color: #00CC00;
-    border: 1px solid #00CC00;
-}
-.img-2
-{
-    margin-top: 60px;
-}
-.matn-top-2
-{
-    font-family: sans-serif;
-    text-align: right;
+    background-color: white;
+    color: gray;
+    font-family: tahmoa;
     font-size: 18px;
-    padding: 50px 10px 0px 0px;
-    float: left;
-}
-.matn-main-2
-{
-    font-family: sans-serif;
-    text-align: right;
-    font-size: 16px;
-    padding: 0px 10px 0px 0px;
-}
-.btn-2
-{
-    width: 120px;
-    height: 32px;
-    border: 1px solid gray;
-    color: gray;
-    background-color: white;
-    margin-left: 50px;
-    border-radius: 20px;
-    font-size: 27px;
-    text-align: center;
-}
-.btn-2:hover
-{
-    color: #00CC00;
-    border: 1px solid #00CC00;
-}
-.ref-bargasht
-{
-    width: 100%;
-    height: 50px;
-    border: 1px solid #d8d4d4;
-    border-right: none;
-    border-left: none;
-    margin-top: 950px;
-}
-.baa
-{
-    float: right;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-decoration: none;
-    margin: 10px 10px 0px 0px;
-    color: gray;
-}
-.baa:hover
-{
-    color: red;
-}
-.ba
-{
-    float: left;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-decoration: none;
-    margin: 10px 0px 0px 10px;
-    color: gray;
-}
-.ba:hover
-{
-    color: red;
+    margin-left: -475px;
+    margin-top: 40px;
 }
 .akhar
 {
+    float: left;
+    margin-top: 140px;
+}
+.tozih-3ahkari
+{
+    width: 540px;
+    height: 100px;
+}
+.tozih-3-3
+{
+    font-family: Tahoma;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+}
+.sartozih-3
+{
+    width: 540px;
+    height: 100px;
+}
+.tozih-3
+{
+    font-family: Tahoma;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.btn-2
+{
+    width: 150px;
+    height: 35px;
+    border: 1px solid #a1a1a1a1;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    font-family: tahmoa;
+    font-size: 18px;
+    margin-left: -475px;
+    margin-top: 370px;
+}
+.rabagasht
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e2e0e0;
+    margin: 125px 0px 0px -1px;
+}
+.ghabli
+{
+    float: left;
+    font-size: 20px;
+    font-family: Tahoma;
+    margin: 12px 0px 0px 20px;
+}
+.badi
+{
+    float: right;
+    font-size: 20px;
+    font-family: Tahoma;
+    margin: 13px 15px 0px 0px;
+}
+.akhari
+{
     width: 100%;
     height: 200px;
-    background-color: #eceaea;
-    margin-top: -1px;
-    border: 1px solid #d8d4d4;
+    background-color:#9a9a9a;
+    margin-top: -51px;
 }
-.blog
+.weblog
 {
+    font-family: Tahoma;
+    font-size: 50px;
     text-align: center;
-    font-size: 35px;
-    font-family: sans-serif;
 }
-.matn-akhar
+.htt
 {
-    text-align: center;
-    font-size: 10px;
-    font-family: sans-serif;
-    margin-top: -10px;
-}
-.logo
-{
-    width: 45px;
-    height: 35px;
-    float: left;
-    margin: 12px -525px 0px 542px;
-    background-color: #b3b0b0;
-}
-i
-{
-    padding: 10px 0px 0px 17px;
+    width: 40px;
+    height: 40px;
+    margin-left: 590px;
     color: white;
+
 }
-.logo:hover
+.httt
+ {
+     margin-left: 35px;
+     color: white;
+ }
+.ht
 {
-    background-color: blue;
+    margin-left: 0px;
+    color: white;
 }
