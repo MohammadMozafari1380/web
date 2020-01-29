@@ -1,0 +1,22 @@
+.b-r{border: 1px solid;}
+.f-l{float: left;}
+.f-r{float: right;}
+.w-i-d{width: 0;}
+.w-i-d-s{width: 230px;}
+.marg-l{margin-left: 200px;}
+.text-l{text-align: left;}
+.text-r{text-align: right;}
+.text-c{text-align: center;}
+.backg{background-color:#6df8ff;}
+.backg-g{background-color:greenyellow;}
+.backg-a{background-color:#a1aa1a;}
+.color{color: white;}
+.w-h{width: 229px; height: 25px;}
+.w-h-earea{height: 50px;}
+.font{font-family: Tahoma;}
+.marg-t{margin-top: 5px;}
+.b-r-n{border: none;}
+.b-r-r{border-radius: 20px;}
+.w-h-input{width: 850px;}
+.out-line{outline: none;}
+.b-r-dashed{border: 1px dashed blue;}
